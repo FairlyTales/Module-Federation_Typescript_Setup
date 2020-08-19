@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        //needed for React
+        "esModuleInterop": true,
+        "jsx": "react",
+        "baseUrl": ".",
+        //tell Typescript to resolve the federated modules within the repository
+        "paths": {
+            "tsremote-mf/pokemonList": [
+                "packages/ts-remote/src/pokemonList",
+            ],
+            "tsremote-mf/PokemonListView": [
+                "packages/ts-remote/src/PokemonListView"
+            ]
+        }
+    }
+}
