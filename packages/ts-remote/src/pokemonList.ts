@@ -1,4 +1,4 @@
-import { Pokemon, PokemonListFunction } from "shared-types";
+import { Pokemon, PokemonListFunction } from "./types";
 
 const pokemon: Pokemon[] = [
   {
